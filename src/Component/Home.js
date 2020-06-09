@@ -3,6 +3,10 @@ import {
     Card, CardBody,
     CardTitle, Col, Row
   } from 'reactstrap';
+import {
+    Link
+} from "react-router-dom";
+
 import axios from 'axios'
 
 export default function Home() {
@@ -20,6 +24,7 @@ export default function Home() {
                     <Card>
                         <CardBody>
                             <CardTitle>{e.name}</CardTitle>
+                            <Link to={'/room/' + e.id}>Rooms</Link>
                         </CardBody>
                     </Card>
                 </Col>

@@ -11,6 +11,7 @@ import {
 import TopMenu from './Component/TopMenu'
 import Login from './Component/Login'
 import Home from './Component/Home'
+import Room from './Component/Room'
 import { AuthProvider } from './Context/AuthContext'
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
             <Route path="/home">
               <Home />
             </Route>
+            <Route path="/room/:id" component={Room} />
             <Redirect from="/" to="/login" />
           </Switch>
         </Router>
