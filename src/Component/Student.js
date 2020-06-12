@@ -7,12 +7,12 @@ import {
     Link
 } from "react-router-dom";
 
-export default function Room(props) {
+export default function Student(props) {
     const [list, setList] = useState('') 
     const id = props.match.params.id
 
     useEffect(() => {
-        const url ='https://quiz-online-fpt.herokuapp.com/rooms/' + id
+        const url ='https://quiz-online-fpt.herokuapp.com/marks/' + id + '/getRoomId'
         axios.get(url).then(res => setList(res.data)).catch(error => console.log(error.message))
     }, [])
 
@@ -24,7 +24,7 @@ export default function Room(props) {
                         <tr>
                         <th>ID</th>
                         <th>Name</th>
-                        <th>&nbsp;</th>
+                        <th>&npsp;</th>
                         </tr>
                     </thead>
                     <tbody>
