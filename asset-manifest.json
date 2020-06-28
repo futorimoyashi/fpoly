@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/fpoly/static/css/main.5f361e03.chunk.css",
+    "main.js": "/fpoly/static/js/main.d5b98f19.chunk.js",
+    "main.js.map": "/fpoly/static/js/main.d5b98f19.chunk.js.map",
+    "runtime-main.js": "/fpoly/static/js/runtime-main.7bdaadca.js",
+    "runtime-main.js.map": "/fpoly/static/js/runtime-main.7bdaadca.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/fpoly/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.a7c0eb3d.chunk.js": "/fpoly/static/js/2.a7c0eb3d.chunk.js",
+    "static/js/2.a7c0eb3d.chunk.js.map": "/fpoly/static/js/2.a7c0eb3d.chunk.js.map",
+    "index.html": "/fpoly/index.html",
+    "precache-manifest.ccbec34c5e1f09da9d46d8ea463267db.js": "/fpoly/precache-manifest.ccbec34c5e1f09da9d46d8ea463267db.js",
+    "service-worker.js": "/fpoly/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/fpoly/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.5f361e03.chunk.css.map": "/fpoly/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.a7c0eb3d.chunk.js.LICENSE.txt": "/fpoly/static/js/2.a7c0eb3d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7bdaadca.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.a7c0eb3d.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.d5b98f19.chunk.js"
+  ]
+}
